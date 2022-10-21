@@ -1,0 +1,4 @@
+Host *
+     HostName 35.196.9.108
+     User root
+     IdentityFile ~/.ssh/holberton
