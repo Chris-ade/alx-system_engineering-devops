@@ -4,8 +4,8 @@ file {'~/.ssh/config':
   replace => 'yes',
   path    => '~/.ssh/config',
   content => 'Host *
-     HostName 35.196.9.108
+     HostName 54.175.144.208
      User root
-     IdentityFile ~/.ssh/holberton',
+     IdentityFile ~/.ssh/school',
   mode    => '7000',
 }
