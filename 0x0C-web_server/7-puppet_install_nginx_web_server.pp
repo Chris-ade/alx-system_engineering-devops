@@ -14,7 +14,7 @@ exec { 'exec_1':
 
 exec { 'exec_2':
   require => Exec['exec_1'],
-  command => 'echo "Holberton School" | sudo tee /var/www/html/index.nginx-debian.html',
+  command => 'echo "Hello World!" | sudo tee /var/www/html/index.nginx-debian.html',
   path    => ['/usr/bin', '/bin'],
   returns => [0,1]
 }
